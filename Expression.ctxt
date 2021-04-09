@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Expression
+comment1.params=infixExpression
+comment1.target=java.lang.String[]\ convertToPostfix(java.lang.String[])
+comment1.text=\r\n\ Converts\ a\ given\ infix\ expression\ to\ a\ postfix\ expression\ using\ a\ stack.\r\n\ @param\ infixExpression\ \ \ the\ expression\ to\ be\ converted\ into\ postfix\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ converted\ postfix\ expression\r\n\ @throws\ RuntimeException\ if\ the\ infix\ expression\ is\ not\ well\ formed\r\n
+comment2.params=postfixExpression\ nameBag
+comment2.target=int\ evaluatePostfix(java.lang.String[],\ BagInterface)
+comment2.text=\r\n\ Evaluates\ a\ given\ postfix\ expression\ using\ a\ stack.\r\n\ @param\ postfixExpression\ the\ postfix\ expression\ to\ be\ evaluated\r\n\ @param\ nameBag\ \ \ \ \ \ \ \ \ \ \ a\ bag\ of\ Names\ (the\ variables\ in\ the\ expression)\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ value\ of\ the\ postfix\ expression\r\n\ @throws\ RuntimeException\ if\ the\ postfix\ expression\ is\ not\ well\ formed\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ or\ a\ name\ is\ not\ found\ in\ nameBag\r\n
+comment3.params=expression
+comment3.target=boolean\ checkBalance(java.lang.String[])
+comment4.params=open\ close
+comment4.target=boolean\ isPaired(char,\ char)
+comment5.params=next\ top
+comment5.target=boolean\ isLowerPrecedence(char,\ char)
+comment6.params=left\ right\ operator
+comment6.target=int\ calculate(int,\ int,\ java.lang.String)
+comment7.params=namebag
+comment7.target=Name[]\ convertToNameArray(BagInterface)
+comment8.params=name\ variableNames
+comment8.target=int\ lookup(java.lang.String,\ Name[])
+numComments=9

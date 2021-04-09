@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=StackInterface
+comment1.params=newEntry
+comment1.target=void\ push(java.lang.Object)
+comment1.text=\r\n\ Pushes\ a\ new\ entry\ onto\ the\ top\ of\ this\ stack.\r\n\ @param\ newEntry\ the\ object\ to\ be\ pushed\ onto\ this\ stack\r\n
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment2.text=\r\n\ Looks\ at\ the\ top\ entry\ of\ this\ stack\ without\r\n\ removing\ it\ from\ the\ stack.\r\n\ @return\ \ the\ object\ at\ the\ top\ of\ this\ stack\r\n
+comment3.params=
+comment3.target=java.lang.Object\ pop()
+comment3.text=\r\n\ Removes\ the\ top\ entry\ of\ this\ stack.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ object\ at\ the\ top\ of\ this\ stack\r\n\ @throws\ RuntimeException\ if\ the\ stack\ is\ empty\r\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\r\n\ Checks\ whether\ this\ stack\ is\ empty.\r\n\ @return\ \ true\ if\ the\ stack\ is\ empty,\ false\ if\ not\r\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\r\n\ Removes\ all\ entries\ from\ this\ stack.\r\n
+numComments=6
